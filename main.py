@@ -1,7 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import time
 
-HOST = "192.168.100.28"
+HOST = "192.168.  "
 PORT=  9999
 
 class AffafHTTP(BaseHTTPRequestHandler):
