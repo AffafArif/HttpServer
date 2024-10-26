@@ -1,0 +1,11 @@
+python -m http.server
+to interrupt: ctrl + c 
+navigate to wanted directory 
+go to localhost:8000 on a web browser
+can change port number from default 8000 by python -m http.server <port number>
+  ex. python -m http.server 9999
+to host for another computer, have to specify your ip address
+Ip address can be found using ipconfig and the value will be the IPv4 value.
+python -m http.server <port number> --bind <ip address> 
+  or
+python -m http.server <port number> -b <ip address>
